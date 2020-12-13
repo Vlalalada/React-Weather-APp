@@ -1,0 +1,30 @@
+.location-block{
+  margin-top: 30px;
+  
+  @media screen and (orientation:landscape) and (max-width:850px){
+    margin-top: 10px;
+  }
+}
+
+.location-block__location {
+  color: #FFF;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+
+  @media screen and (orientation:landscape) and (max-width:850px){
+    font-size: 25px;
+  }
+}
+  
+.location-block__date {
+  color: #FFF;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+
+  @media screen and (orientation:landscape) and (max-width:850px){
+    font-size: 20px;
+  }
+}
